@@ -1,5 +1,7 @@
-﻿// Інтерфейс "Транспортний засіб"
-public interface IVehicle
+﻿namespace GitNoTeam.Interfaces
+{
+    // Інтерфейс "Транспортний засіб"
+    public interface IVehicle
 {
     // Повертає модель транспортного засобу
     string GetModel();
@@ -12,4 +14,5 @@ public interface IVehicle
 
     // Повертає поточне місцезнаходження транспортного засобу
     string GetCurrentLocation();
+    }
 }

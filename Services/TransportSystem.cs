@@ -1,8 +1,11 @@
 ﻿// Клас "Система керування транспортом"
 using System;
 using System.Collections.Generic;
+using GitNoTeam.Interfaces;
 
-public class TransportSystem : ITransportManagementSystem
+namespace GitNoTeam.Services
+{
+    public class TransportSystem : ITransportManagementSystem
 {
     // Словник для збереження зареєстрованих транспортних засобів
     private Dictionary<string, IVehicle> _vehicles = new Dictionary<string, IVehicle>();
@@ -46,5 +49,6 @@ public class TransportSystem : ITransportManagementSystem
     public List<string> GetRegisteredVehicleIds()
     {
         return new List<string>(_vehicles.Keys);
+    }
     }
 }

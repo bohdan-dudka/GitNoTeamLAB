@@ -1,5 +1,7 @@
-﻿// Інтерфейс "Система керування транспортом"
-public interface ITransportManagementSystem
+﻿namespace GitNoTeam.Interfaces
+{
+    // Інтерфейс "Система керування транспортом"
+    public interface ITransportManagementSystem
 {
     // Реєструє новий транспортний засіб у системі
     string RegisterVehicle(IVehicle vehicle);
@@ -15,4 +17,5 @@ public interface ITransportManagementSystem
 
     // Повертає список ідентифікаторів зареєстрованих транспортних засобів
     List<string> GetRegisteredVehicleIds();
+    }
 }

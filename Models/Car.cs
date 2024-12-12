@@ -1,5 +1,9 @@
-﻿// Клас "Автомобіль" (приклад реалізації IVehicle)
-public class Car : IVehicle
+﻿using GitNoTeam.Interfaces;
+
+namespace GitNoTeam.Models
+{
+    // Клас "Автомобіль" (приклад реалізації IVehicle)
+    public class Car : IVehicle
 {
     private string _model; // Модель автомобіля
     private int _yearOfManufacture; // Рік випуску автомобіля
@@ -33,4 +37,4 @@ public class Car : IVehicle
     {
         return _currentLocation;
     }
-}
+}}

@@ -1,4 +1,7 @@
-﻿// Основний клас для демонстрації
+﻿using GitNoTeam.Models; // Імпорт ваших інтерфейсів
+using GitNoTeam.Interfaces; // Імпорт реалізацій
+using GitNoTeam.Services; // Імпорт ваших інтерфейсів
+// Основний клас для демонстрації
 public class Program
 {
     public static void Main(string[] args)
