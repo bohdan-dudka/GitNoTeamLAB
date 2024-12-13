@@ -1,6 +1,8 @@
 ﻿using GitNoTeam.Models; // Імпорт ваших інтерфейсів
 using GitNoTeam.Interfaces; // Імпорт реалізацій
 using GitNoTeam.Services; // Імпорт ваших інтерфейсів
+using GitNoTeam.Services; // Імпорт ваших інтерфейсів
+
 // Основний клас для демонстрації
 public class Program
 {

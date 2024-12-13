@@ -1,0 +1,41 @@
+[33mcommit 83e91c6b31003938f72b7a3f2fe11bdbecc66905[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: Kate <Kate@KATE>
+Date:   Fri Dec 13 03:26:48 2024 +0200
+
+    Test
+
+[33mcommit 3d01e2c4b6f770f0b6b948b27ec94acc69a39f39[m
+Author: Kate <Kate@KATE>
+Date:   Fri Dec 13 03:25:22 2024 +0200
+
+    Добавление комментариев
+
+[33mcommit 3da9b3144b8a349945cb74ed02c444af3816675b[m
+Author: Kate <Kate@KATE>
+Date:   Fri Dec 13 03:21:57 2024 +0200
+
+    Функция PrintRegisteredVehicles
+
+[33mcommit ca6bb44cbef896e6a161c1eab6881737f9abd6d6[m[33m ([m[1;32minterfaces[m[33m)[m
+Author: Kate <Kate@KATE>
+Date:   Thu Dec 12 06:38:22 2024 +0200
+
+    Добавление UnitTest.
+
+[33mcommit 19906878ab3767050b4117256f1fb5d45412c4eb[m
+Author: Kate <Kate@KATE>
+Date:   Wed Dec 11 06:26:16 2024 +0200
+
+    Test
+
+[33mcommit a8d73e88f040905c63648d0c523b58e289bfe4f2[m
+Author: Kate <Kate@KATE>
+Date:   Wed Dec 11 05:00:35 2024 +0200
+
+    Добавьте файлы проекта.
+
+[33mcommit 691b15ef520fffd72108933f9d33992ffa4d3a87[m
+Author: Kate <Kate@KATE>
+Date:   Wed Dec 11 05:00:32 2024 +0200
+
+    Добавить .gitattributes и .gitignore.
