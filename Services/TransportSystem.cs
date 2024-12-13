@@ -19,8 +19,17 @@ namespace GitNoTeam.Services
         return vehicleId;
     }
 
-    // Відстежує місцезнаходження транспортного засобу
-    public string TrackLocation(string vehicleId)
+        public void PrintRegisteredVehicles()
+        {
+            Console.WriteLine("Registered Vehicles:");
+            foreach (var vehicleId in _vehicles.Keys)
+            {
+                Console.WriteLine($"Vehicle ID: {vehicleId}, Model: {_vehicles[vehicleId].GetModel()}");
+            }
+        }
+
+        // Відстежує місцезнаходження транспортного засобу
+        public string TrackLocation(string vehicleId)
     {
         if (_vehicles.TryGetValue(vehicleId, out IVehicle vehicle))
         {
