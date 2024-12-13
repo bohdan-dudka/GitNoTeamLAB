@@ -3,6 +3,8 @@
     // Інтерфейс "Система керування транспортом"
     public interface ITransportManagementSystem
 {
+
+    string RegisterNewVehicle(string model, int yearOfManufacture, int maxSpeed, string currentLocation);
     // Реєструє новий транспортний засіб у системі
     string RegisterVehicle(IVehicle vehicle);
 
