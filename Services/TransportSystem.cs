@@ -28,6 +28,16 @@ namespace GitNoTeam.Services
             }
         }
 
+        public void PrintRegisteredVehicles1()
+        {
+            Console.WriteLine("Registered Vehicles:");
+            foreach (var vehicleId in _vehicles.Keys)
+            {
+                Console.WriteLine($"Vehicle ID: {vehicleId}, Model: {_vehicles[vehicleId].GetModel()}");
+            }
+        }
+
+
         // Відстежує місцезнаходження транспортного засобу
         public string TrackLocation(string vehicleId)
     {
