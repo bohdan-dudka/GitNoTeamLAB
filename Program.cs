@@ -12,6 +12,7 @@ public class Program
         // Створення двох автомобілів
         IVehicle car1 = new Car("Toyota Corolla", 2020, 180, "Kyiv");
         IVehicle car2 = new Car("Ford Focus", 2018, 200, "Lviv");
+        IVehicle car3 = new Car("Focus", 2028, 100, "Lviv");
 
         // Реєстрація автомобілів у системі
         string car1Id = system.RegisterVehicle(car1);
